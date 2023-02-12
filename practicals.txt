@@ -1,0 +1,84 @@
+(done)1.	Write a Python program to any game using random number generator. 
+(done)2.	Write a Python program using user defined function to find the factorial of a natural number. 
+(done)3.	Write a Python program using user defined function to find the sum of all elements of a list. 
+(done)4.	Write a Python program using user defined function to compute the nth Fibonacci number. 
+(ask ma'am doubt for 'None')>>RESOLVED<<5.	Write a python program to search an element in a list and display the frequency of element present in list and their location by using user defined function. [List and search element should be entered by user]
+(done)6.	Write a python program to pass list to a function and double the odd values and half even values of a list and display list element after changing.	 
+(done)7.	Write a Python program input n numbers in tuple and pass it to function to count how many even and odd numbers are entered.
+(done)8.	Write a Python program to read Dictionary with key and value using function, and update value at that key in dictionary entered by user.
+(done)9.	Write a Python program to Read a text file line by line and display each word separated by a #.
+(done)10.	Write a Python program to Read a text file and display the number of vowels/consonants/uppercase/lowercase characters in the file. 
+(done)11.	Write a python program to create a function to print longest word in given text file.
+(done)12.	Write a Python program to pass a string to a function and count how many vowels present in the given text file.  
+(done)13.	Write a Python program to Remove lines that contain the character 'a' in a file and write it to another file. 
+(done)14.	Write a python program to create functions of following(Menu Driven):
+    (a)	Write contents into file.
+    (b)	Display no of lines
+    (c)	Display no characters in each line
+    (d)	Display no of words in each line
+    (e)	Search a word(ask from  user) in file and display occurrence of the word
+(done)15.	Write a Python program to Create & search in a binary file with name and roll number. Search for a given roll number and display the name, if not found display appropriate message. 
+(done|compromisable)16.	Write a Python program to Create & update a binary file with roll number, name and marks. Input a roll number and update the marks. 
+(done)17.	Write a Python program to Create a binary file with item number, itemname and price. Input an item number and search and display item details of that item. 
+(done)18.	Write a Python program to Create a CSV file with name and roll number. Search for a given roll number and display the name, if not found display appropriate message. 
+(done)19.	Write a Python program to Create a CSV file with item number, itemname and price. Input an item number and search and display item details of that item. 
+(done)20.	Write a Python program to Create a CSV file by entering user-id and password, read and search the password for given user-id.
+
+************************************************************************************************
+
+(done)1.	Write a program in Python to create a stack name StackVow, which takes the elements as vowels and implement all oprations (Push, POP and Traversal) on stack StackVow
+
+(done)2.	Write a program in python to create a stack “student” with details of student name and their marks. Write Operation for Push, Pop and Traversal operation using menu.
+
+(done)3.	Julie has created a dictionary containing names and marks as key value pairs of 6 students. Write a program, with separate user defined functions to perform the following operations: ● Push the keys (name of the student) of the dictionary into a stack, where the corresponding value (marks) is greater than 75. ● Pop and display the content of the stack. For example: If the sample content of the dictionary is as follows:
+R={"OM":76, "JAI":45, "BOB":89, "ALI":65, "ANU":90, "TOM":82} 
+The output from the program should be: TOM ANU BOB OM
+
+(done)4.	Aman has a list containing 10 integers. You need to help him create a program with separate user defined functions to perform the following operations based on this list. ● Traverse the content of the list and push the even numbers into a stack. ● Pop and display the content of the stack. For Example: If the sample Content of the list is as follows: N=[12, 13, 34, 56, 21, 79, 98, 22, 35, 38] Sample Output of the code should be: 38 22 98 56 34 12
+
+(done)5.	Create a table student with the rollno, name, class, dob, marks. Where rollno is the primary key. 
+
+(done)a.	Insert 10 records in table student. 
+(done)b.	Delete the details of student in the table, 
+(done)c.	Show structure of table. 
+(done)d.	Find the min, max, sum and average of the marks in student table. 
+(done)e.	Count total number of rows in table student. 
+(done)f.	Display records of table in descending order of marks and display younger one first.
+(done)g.	Show records from table of students whose date of birth before 2010 in ascending order of name. 
+(done)h.	Print total number of students class wise. 
+(done)i.	Delete all the records whose 2nd character in name is ‘a’
+(done)j.	Display all those records whose marks are greater than average marks 
+k.	Find the total number of students for each class where total number of students must be more than 40
+(done)l.	Increase 10 percent marks of all student whose marks is less than 30
+(done)m.	Delete table 
+
+(done)6.	Write a MySQL-Python connectivity program to perform an Insert query in the database ‘SCHOOL’, which contains the table ‘Student’. Table ‘student’ values are rollno, name, age (1, ’AMIT’, 22)
+
+(done)7.	Consider the following tables and answer the following Table : Book
+Book_Id	Book_Name	    Author_Name	    Publisher	Price	Type	Quantity
+C0001	Fast Cook 	    LataKapoor	    EPB 	    355	    Cookery 	5 
+F0001 	The Tears 	    William Hopkins First Pub	650	    Fiction 	20
+T0001 	My First C++    Brain & Brooke 	EPB 	    350	    Text	    10
+T0002	C++ Brain works A.W. Rossaine	TDH 	    350	    Text	    15
+F0002	Thunderbolts 	Anna Roberts 	First Pub	750	    Fiction 	50 
+Table : Issued
+Book_Id	    Issuedto	Quantity_Issued
+T0001	    Kamal	        4
+C0001	    Arvind	        5
+F0001	    Suresh	        2
+(done)1.	To show Book id, Book name, Author name and price of books of First Pub Publisher 
+(done)2.	To display the names and price of books in ascending order of their prices. 
+(done)3.	Display the price of book which has price between 300 to 500.
+(done)4.	To increase the price of all books of EPB publishers by 50.
+(done)5.	To display the Book_Id, Book_Name and quantity issued for all books which have been issued.
+(done)6.	To display the Bookname and  Price of Books for all books having ‘C++’ in the bookname
+(done)7.	Delete the book whose book id is T0002
+(done)8.	Show all book whose book name started with character ‘T’
+
+Give the output of the following 
+(done)9.	Select Count(*) from Book; 
+(done)10.	Select Max(Price) from Book where Quantity >=15; 
+(done)11.	Select Book_Name, Author_Name from Book where Publisher=’First Pub’;
+(done)12.	Select count(distinct Publisher) from Book where Price>=400;
+(done)13.	Select count(distinct(Publisher)) from book;
+ 
