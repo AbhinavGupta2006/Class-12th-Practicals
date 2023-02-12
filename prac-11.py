@@ -13,7 +13,7 @@ def longword(filename):
 #     maxlen=0
 #     maxword=''
 #     f=open('name.txt','r')
-# 	i=
+# 	  i=f.read()
 #     words=i.split()
 #     for j in words:
 #         if len(j)>maxlen:
